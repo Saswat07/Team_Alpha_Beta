@@ -175,7 +175,3 @@ class TFNet(object):
 		self.say('Saving const graph def to {}'.format(name))
 		graph_def = tfnet_pb.sess.graph_def
 		tf.train.write_graph(graph_def,'./', name, False)
-
-
-
-		

@@ -1,5 +1,4 @@
-car
-motorbike
-auto
-bus
+aeroplane
 bicycle
+bird
+boat

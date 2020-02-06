@@ -33,9 +33,9 @@ def cliHandler(args):
         print('Enter training ...'); tfnet.train()
         if not FLAGS.savepb: 
             exit('Training finished, exit.')
-    '''
+
     if FLAGS.savepb:
         print('Rebuild a constant version ...')
         tfnet.savepb(); exit('Done')
-    '''
+
     tfnet.predict()
